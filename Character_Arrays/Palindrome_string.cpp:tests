@@ -1,0 +1,11 @@
+[
+	{
+		"test": "abcba\n"
+	},
+	{
+		"test": "abba\n"
+	},
+	{
+		"test": "acacba\n"
+	}
+]
