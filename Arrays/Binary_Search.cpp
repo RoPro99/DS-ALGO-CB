@@ -17,7 +17,7 @@ int binary_search(int *a,int n,int key){
 	else{
 		s=mid + 1;
 	}
-}
+		}
 	return -1;
 	}
 

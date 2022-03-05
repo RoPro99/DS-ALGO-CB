@@ -20,7 +20,7 @@ int main(){
 		}
 		MaximumSum = max(CurrentSum,MaximumSum);
 	}
-	cout<<"<<MaximumSum<<endl;
+	cout<<MaximumSum<<endl;
 	
 
 	
