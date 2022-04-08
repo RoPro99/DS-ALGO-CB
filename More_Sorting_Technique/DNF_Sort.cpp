@@ -26,8 +26,12 @@ void dnf_sort(int *arr,int n){
 
 
 int main(){
-	int arr[]={2, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 2, 0};
-	int n=sizeof(arr)/sizeof(int);
+	int n;
+	cin>>n;
+	int arr[100000];
+	for(int i=0;i<n;i++){
+		cin>>arr[i];
+	}
 	dnf_sort(arr,n);
 	for(int i=0;i<n;i++){
 		cout<<arr[i]<<" ,";
