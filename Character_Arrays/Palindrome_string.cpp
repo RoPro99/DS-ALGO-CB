@@ -1,15 +1,15 @@
 #include<bits/stdc++.h>
 #include<iostream>
 using namespace std;
-bool isPalindrome(char *a){
-	int i=0;
-	int j=strlen(a)-1;
-	while(i<j){
-		if(a[i]==a[j]){
+bool isPalindrome(char *a) {
+	int i = 0;
+	int j = strlen(a) - 1;
+	while (i < j) {
+		if (a[i] == a[j]) {
 			i++;
 			j--;
 		}
-		else{
+		else {
 			return false;
 		}
 	}
@@ -19,15 +19,15 @@ bool isPalindrome(char *a){
 
 
 
-int main(){
+int main() {
 	char a[1000];
-	cin.getline(a,1000);
-	if(isPalindrome(a)){
-		cout<<"Palindrome String";
+	cin.getline(a, 1000);
+	if (isPalindrome(a)) {
+		cout << "Palindrome String";
 	}
-	else{
-		cout<<"Not Palindrome";
+	else {
+		cout << "Not Palindrome";
 	}
-	
+
 	return 0;
 }
